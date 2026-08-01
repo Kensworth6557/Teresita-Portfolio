@@ -36,6 +36,13 @@ export default function WorkNavbar({ current } : WorkNavbarProps) {
         <Link href="/portfolio/pitch-decks" className={current === "pitch-decks" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}>
           Pitch Decks
         </Link>
+
+        <Link
+          href="/portfolio/Films"
+          className={current === "films" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}
+        >
+          Films
+        </Link>
       </nav>
     </>
   );
