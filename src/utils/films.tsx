@@ -15,24 +15,24 @@ export const films: Film[] = [
     slug: "Coffee_Spills",
     title: "Coffee Spills",
     description:
-      "...",
+      "",
     year: "2026", 
     role: "Director",
     runtime: "9:45",
     poster: "/preview/CoffeeSpills_Poster.png",
-    preview: "https://xmssuezlrekarpvw.public.blob.vercel-storage.com/Coffee%20Spills.mp4",
-    video: "https://xmssuezlrekarpvw.public.blob.vercel-storage.com/Coffee%20Spills.mp4",
+    preview: "/preview/Coffee_Spill_Preview.mp4",
+    video: "https://www.youtube.com/embed/JCSAPwEjNOk?si=RGszDuKcDYXV3UKs",
   },
   {
     slug: "spring-runway-26",
     title: "Spring Runway '26",
-    description: "...",
+    description: "",
     year: "2026",
     role: "Director",
     runtime: "3:35",
     poster: "/preview/FSUCI_Spring_Runway_'26_Teaser_Poster.png",
-    preview: "https://xmssuezlrekarpvw.public.blob.vercel-storage.com/FSUCI%20Spring%20Runway%20%2726%20Teaser.mov",
-    video: "https://xmssuezlrekarpvw.public.blob.vercel-storage.com/FSUCI%20Spring%20Runway%20%2726%20Teaser.mov",
+    preview: "/preview/Spring_Runway_'26_Preview.mp4",
+    video: "https://www.youtube.com/embed/JbZONqHxpMA?si=5VPvp5WvMdzy7lYE" ,
   }
 ];
 

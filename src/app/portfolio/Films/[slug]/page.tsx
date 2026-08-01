@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import FilmPlayer from "@/components/ui/filmplayer";
 
 import { films, getFilmBySlug } from "@/utils/films";
 
@@ -47,19 +46,17 @@ export default async function ProjectPage({
 
   return (
     <main className="min-h-screen bg-black text-white mt-40">
-      <div className="relative flex min-h-screen items-center justify-center bg-black">
-        <video
-          controls
-          playsInline
-          preload="metadata"
-          poster={film.poster}
-          className="max-h-screen w-full bg-black object-contain"
-          muted={false}
-        >
-          <source src={film.video} type="video/mp4" />
-
-          Your browser does not support HTML video.
-        </video>
+      <div className="relative flex min-h-screen items-center justify-center bg-black px-4">
+        <div className="aspect-video w-full overflow-hidden rounded-lg">
+           <iframe
+            className="h-full w-full"
+            src={film.video}
+            title={film.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-24">
