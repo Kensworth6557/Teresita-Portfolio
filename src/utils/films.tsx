@@ -21,7 +21,7 @@ export const films: Film[] = [
     runtime: "9:45",
     poster: "/preview/CoffeeSpills_Poster.png",
     preview: "/preview/Coffee_Spill_Preview.mp4",
-    video: "https://www.youtube.com/embed/JCSAPwEjNOk?si=RGszDuKcDYXV3UKs",
+    video: "https://www.youtube.com/embed/gTQC61xPLYM?si=DbLIHn5lFN_fRODn",
   },
   {
     slug: "spring-runway-26",
@@ -32,7 +32,7 @@ export const films: Film[] = [
     runtime: "3:35",
     poster: "/preview/FSUCI_Spring_Runway_'26_Teaser_Poster.png",
     preview: "/preview/Spring_Runway_'26_Preview.mp4",
-    video: "https://www.youtube.com/embed/JbZONqHxpMA?si=5VPvp5WvMdzy7lYE" ,
+    video: "https://www.youtube.com/embed/6HvvGBxQv6M?si=1I6sjXoZQNcbBlH-" ,
   }
 ];
 
