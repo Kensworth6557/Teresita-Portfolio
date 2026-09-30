@@ -14,7 +14,7 @@ export default function FilmCard({
 }: FilmCardProps) {
   return (
     <Link
-      href={`/portfolio/Films/${film.slug}`}
+      href={`/films-and-pitch-decks/Films/${film.slug}`}
       aria-label={`View ${film.title}`}
       className="group relative block aspect-video w-full overflow-hidden bg-black"
     >

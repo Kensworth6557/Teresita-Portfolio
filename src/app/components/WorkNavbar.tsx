@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowRight } from "lucide-react";
 
 interface WorkNavbarProps {
   current : string;
@@ -33,15 +34,12 @@ export default function WorkNavbar({ current } : WorkNavbarProps) {
           Makeup
         </Link>
 
-        <Link href="/portfolio/pitch-decks" className={current === "pitch-decks" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}>
-          Pitch Decks
-        </Link>
-
         <Link
-          href="/portfolio/Films"
-          className={current === "films" ? "text-3xl underline font-pt-serif text-red-500" : "text-3xl font-pt-serif hover:text-red-400"}
+          href="/films-and-pitch-decks/Films"
+          className="flex flex-col items-center md:ml-8 font-pt-serif hover:text-red-400 hover:translate-x-1 duration-75"
         >
-          Films
+          <ArrowRight className="size-10" />
+          <span className="text-sm">Films & Pitch Decks</span>
         </Link>
       </nav>
     </>

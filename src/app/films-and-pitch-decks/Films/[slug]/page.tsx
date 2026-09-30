@@ -61,7 +61,7 @@ export default async function ProjectPage({
 
       <section className="mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-24">
         <Link
-          href="/portfolio/Films"
+          href="/films-and-pitch-decks/Films"
           className="inline-block text-sm uppercase tracking-[0.25em] text-white/60 transition-colors hover:text-white"
         >
           ← Back

@@ -1,9 +1,9 @@
-import WorkNavbar from "@/app/components/WorkNavbar"
+import FilmsNavbar from "@/app/components/FilmsNavbar"
 
 export default function PitchDecks() {
     return (
         <>
-            <WorkNavbar current="pitch-decks"/>
+            <FilmsNavbar current="pitch-decks"/>
             <h1 className="text-5xl items-center justify-center flex font-pt-serif">My Pitchdecks</h1>
             
             <div className="flex flex-col items-center justify-center mt-12">
