@@ -1,4 +1,4 @@
-import FilmsNavbar from "@/app/components/FilmsNavbar";
+import WorkNavbar from "@/app/components/WorkNavbar";
 import FilmCard from "@/components/ui/filmcard";
 import { films } from "@/utils/films";
 
@@ -6,7 +6,7 @@ export default function Film() {
 
     return (
         <>
-            <FilmsNavbar current="films" />
+            <WorkNavbar current="films" />
             <main className="bg-black">
                 {films.map((film, index) => (
                     <FilmCard
